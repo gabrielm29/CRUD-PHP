@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@media all{
+    /*Configurações do Principal*/
+    #container{
+        width: 750px;
+    }
+    form{
+        width: 420px;
+        margin-bottom: 30px;
+    }
+    .dados{
+        margin-bottom: 0px;
+    }
+    label{
+        color: #bfb5cf;
+        font-weight: bold;
+    }
+    input#nome{
+        width: 200px;
+        margin-right: 10px;
+    }
+    input[type=submit]{
+        width: 100px;
+    }
+    div#tabela{
+        max-height: 400px;
+        overflow-y: auto;
+    }
+    table{
+        border-collapse: collapse;
+        text-align: center;
+        vertical-align: middle;
+        background-color: var(--roxo-mais-claro);
+        color: #bfb5cf;
+        width: 100%;
+    }
+    th{
+        background-color: var(--roxo-claro);
+        border-color: var(--roxo-mais-claro);
+    }
+    td,th{
+        border: 1px solid var(--roxo-claro);
+        padding: 20px;
+    }
+    .editar{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        background-color: var(--verde-claro);
+        color: var(--roxo-claro);
+    }
+    .editar:hover{
+        background-color: #00c462;
+    }
+    .deletar{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        background-color: #971919;
+        color: #bfb5cf;
+    }
+    .deletar:hover{
+        background-color: #861717;
+    }
+}
+@media screen and (max-width: 600px){
+    /*Configurações do Cabeçalho*/
+    #titulo{
+        font-size: 2.5em;
+    }
+
+    /*Configurações do Principal*/
+    #container{
+        width: 300px;
+    }
+    form{
+        width: 250px;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    label{
+        display: block;
+        margin-bottom: 10px;
+    }
+    input#nome{
+        width: 250px;
+        margin-right: 0px;
+    }
+    input[type=submit]{
+        display: block;
+        margin: 10px auto 0px auto;
+    }
+    div#tabela{
+        width: 280px;
+        overflow-x: auto;
+    }
+    td,th{
+        padding: 10px;
+    }
+    .editar, .deletar{
+        display: block;
+    }
+    .editar{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 768px){
+    /*Configurações do Principal*/
+    div#tabela{
+        overflow-x: auto;
+    }
+    td,th{
+        padding: 10px;
+    }
+    .editar, .deletar{
+        display: block;
+    }
+    .editar{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    /*Configurações do Principal*/
+    div#tabela{
+        overflow-x: auto;
+    }
+    td,th{
+        padding: 15px;
+    }
+    .editar, .deletar{
+        display: block;
+    }
+    .editar{
+        margin-bottom: 15px;
+    }
+}
+
+
+
