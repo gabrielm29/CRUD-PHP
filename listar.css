@@ -3,6 +3,9 @@
     /*Configurações do Principal*/
     #container{
         width: 750px;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, 0%);
     }
     form{
         width: 420px;
