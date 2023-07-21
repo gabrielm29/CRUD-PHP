@@ -59,7 +59,8 @@
         margin: 20px 0px;
         position: relative;
         left: 50%;
-        transform: translateX(-50%);
+        top: 50%;
+        transform: translate(-50%, -50%);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -115,8 +116,22 @@
         transition: 0.3s ease;
     }
 }
+@media screen and (max-width: 320px){
+    /*Configurações do Cabeçalho*/
+    #titulo{
+        padding: 10px;
+        font-size: 1.8em;
+    }
 
-@media screen and (max-width: 600px){
+    /*Configurações do Principal*/
+    #container{
+        width: 250px;
+    }
+    .dados > input{
+        width: 170px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
     /*Configurações do Cabeçalho*/
     #titulo{
         padding: 10px;
@@ -128,6 +143,6 @@
         width: 300px;
     }
     .dados > input{
-        width: 200px;
+        width: 220px;
     }
 }
