@@ -61,7 +61,7 @@
         background-color: #861717;
     }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 480px){
     /*Configurações do Cabeçalho*/
     #titulo{
         font-size: 2.5em;
@@ -102,6 +102,47 @@
         margin-bottom: 10px;
     }
 }
+@media screen and (min-width: 480px) and (max-width: 600px){
+    /*Configurações do Cabeçalho*/
+    #titulo{
+        font-size: 2.5em;
+    }
+
+    /*Configurações do Principal*/
+    #container{
+        width: 300px;
+    }
+    form{
+        width: 250px;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    label{
+        display: block;
+        margin-bottom: 10px;
+    }
+    input#nome{
+        width: 250px;
+        margin-right: 0px;
+    }
+    input[type=submit]{
+        display: block;
+        margin: 10px auto 0px auto;
+    }
+    div#tabela{
+        width: 420px;
+        overflow-x: auto;
+    }
+    td,th{
+        padding: 10px;
+    }
+    .editar, .deletar{
+        display: block;
+    }
+    .editar{
+        margin-bottom: 10px;
+    }
+}
 @media screen and (min-width: 600px) and (max-width: 768px){
     /*Configurações do Principal*/
     div#tabela{
@@ -117,7 +158,7 @@
         margin-bottom: 10px;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 1024px){
     /*Configurações do Principal*/
     div#tabela{
         overflow-x: auto;
@@ -129,7 +170,7 @@
         display: block;
     }
     .editar{
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 }
 
